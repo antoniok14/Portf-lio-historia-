@@ -1,152 +1,183 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+body {
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> ◌ portifólio ◌ </title>
-    <link rel="stylesheet" href="style.css">
-</head>
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
 
-<style>
-    body{
-    min-height:14vh;
-    }
+a {
+    color: white;
+    text-decoration: none;
+}
 
-    ::-webkit-scrollbar 
-    {
-        width: 12px;
-    }
+header img {
+    width: 100%;
+    height: 50%;
+    border-radius: 0%;
+    border: 2px solid #5BBE42;
+}
 
-    ::-webkit-scrollbar-track 
-    {
-        background: green;
-    }
+.center {
+    text-align: center;
+}
 
-    ::-webkit-scrollbar-thumb 
-    {
-        background: #323683;
-        border-radius: 14px;
-    }
+h1 {
+    color: #5BBE42;
+}
 
-    ::-webkit-scrollbar-thumb:hover 
-    {
-        opacity: .95;
-    }
-  </style>
+footer img {
+    width: 40px;
+    height: 40px;
+}
 
-<body>
-    
-    <div class="container">
-        <nav>
-            <ul>
-                <li>
-                    <a href="index.html">Sobre mim</a>
-                </li>
-                <li>
-                    <a href="projeto.html">Projetos</a>
-                    
-                </li>
-                <li>
-                    <a href="contact.html">Contato</a>
-                </li>
-            </ul>
-        </nav>
+footer {
+    display: flex;
+    justify-content: center;
+}
 
-        <header>
-            <div class="center">
-                <img src="ruins-2687857_640.jpg"></img>
-            </div>
-            <h1>Rafael</h1>
-        </header>
+footer a {
+    margin: 20px;
+    text-align: center;
+}
 
-        <main>
-            <section>
-                <h3>Meu Passa tempo</h3>
-               
-                    <video  height="50%" width="100%" src="paula.mp4"
-                    controls
-                    width="1600"
-                    height="400"
-                    muted
-                    autoplay
-                    poster="agro.png"
-                    >
-                </video>
-               
-                <p>
-                    <img src="github.png" height="8%" width="5%"></a>
-                    <br><br><br>
-                    Rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
-                    Rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
-                    Rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
-                </p>
-            </section>
-            <section>
-                <h3>Desafios</h3>
-                <p>
-                    <img src="github.png" height="8%" width="5%"></a>
-                    <br><br><br>
-                    rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
-                    Rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
-                </p>
-            </section>
-            <section>
-                <h3>Contribuição</h3>
-                <p>
-                    <img src="github.png" height="8%" width="5%"></a>
-                    <br><br><br>
-                    rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
-                    Rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
-                    Rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
-                </p>
-            </section>
-            <div>
-            
-            <section  class="container relogio">
+footer p {
+    margin-top: 2px;
+}
 
-                <div  class style="color:blue;"align="center"aba-conteudo ativo">
-                    <h3  class=aba-conteudo-titulo-principal">Relogio do Paraná</h3>
-                    <h4  class="aba-conteudo-titulo-secundario">Prof. Rafael</h4>
-                    <div  class="contador">
-                        <div  class="contador-digito">
-                            <p  class="contador-digito-numero"  id="dias0">7</p>
-                            <p  class="contador-digito-texto">dias</p>
-                        </div>
-                        <div  class="contador-digito">
-                            <p  class="contador-digito-numero"  id="horas0">7</p>
-                            <p  class="contador-digito-texto">horas</p>
-                        </div>
-                        <div  class="contador-digito">
-                            <p  class="contador-digito-numero"  id="min0">7</p>
-                            <p  class="contador-digito-texto">min</p>
-                        </div>
-                        <div  class="contador-digito">
-                            <p  class="contador-digito-numero"  id="seg0">7</p>
-                            <p  class="contador-digito-texto">seg</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
+.container {
+    padding: 0px 0px;
+}
+                              <!-- .container font-size: 200%; exemplo-->
+nav a {
+    font-size: 20px;
+}
 
-        <footer button class="btn"</button>
-            <a href="https://github.com/professor-rafael" target="_blank" rel="noopener noreferrer">
-                <img src="github.png"></img>
-                <p>Github</p>
-            </a>
-            <a href="https://www.youtube.com/channel/UCBRq6fO_-P6yPOVbC0yZVmQ" target="_blank" rel="noopener noreferrer">
-                <img src="youtube.png"></img>
-                <p>Youtube</p>
-                <a href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">
-                    <img src="ia.png"></img>
-                    <p>Chat GPT</p>
-                </a>
-            </a>
-        </footer>
-      
-    </div>
-</body>
-<script src="main.js"></script>
-</html>
+nav a:hover {
+    color: #5BBE42;
+}
+
+.contact-form input{
+    width: 100%;
+    padding: 8px 0;
+    margin: 8px 0;
+}
+
+.contact-form input[type=text] {
+    height: 100px;
+}
+
+button {
+    color: black;
+    background-color: white;
+    border: none;
+    width: 100px;
+    height: 30px;
+}
+
+ .btn {
+    margin: 0px;
+    padding: 15px 40px;
+    border: none;
+    outline: none;
+    color: #FFF;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 12px;
+  }
+  .btn::after {
+    content: "";
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #120303;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+  }
+  
+  .btn::before {
+    content: "";
+    background: linear-gradient(
+      45deg,
+      #FF0000, #FF7300, #FFFB00, #48FF00,
+      #00FFD5, #002BFF, #FF00C8, #FF0000
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 600%;
+    z-index: -1;
+    width: calc(100% + 4px);
+    height:  calc(100% + 4px);
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+    opacity: 0;
+  }
+  
+  @keyframes glowing {
+    0% {background-position: 0 0;}
+    50% {background-position: 400% 0;}
+    100% {background-position: 0 0;}
+  }
+  
+ 
+  .btn:hover::before {
+    opacity: 1;
+  }
+  
+  .btn:active:after {
+    background: transparent;
+  }
+  
+  .btn:active {
+    color: #000;
+    font-weight: bold;
+  }
+
+.relogio{
+	justify-content: space-around;
+	padding: 2em;
+}
+.aba-conteudo.ativo{
+	display:block;
+}
+.aba-conteudo{
+	display: none;
+}
+.aba-conteudo-titulo-principal{
+	font-size: 28px;
+	text-align: center;
+}
+.aba-conteudo-titulo-secundario{
+	text-align: center;
+	text-transform: uppercase;
+}
+.contador{
+	display:flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.contador-digito {
+	padding: 10  26px;
+	text-align: center;
+	min-width: 100px;
+}
+.contador-digito-numero{
+	font-size: 50px;
+	margin: 0;
+}
+.contador-digito-texto{
+	font-size: 20px;
+	margin: 0;
+}
